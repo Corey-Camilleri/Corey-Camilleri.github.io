@@ -1,0 +1,160 @@
+#position-logo {
+    width: 40%;
+    float: left;
+}
+
+#container {
+    margin: none;
+}
+
+header {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: #38BFF0;
+}
+
+.logo {
+    float: left;
+    margin: 0.75em;
+    width: 140px;
+    height: 70px;
+}
+
+.centerd-img {
+    display: block;
+    width: 20em;
+    margin: auto;
+}
+
+nav {
+    width: 60%;
+    margin-top: 20px;
+    float: right;
+    display: block;
+    font-family: 'lobster', sans-serif;
+    font-size: 1.3em;
+}
+
+nav ul {
+    text-align: center;
+    background-color: #DAF3F0;
+    padding: 0;
+    margin: 0;
+    margin-right: 2em;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    font-size: 1.3em;
+    padding: 2%;
+    margin: 0.1em;
+}
+
+nav a {
+    display: inline;
+}
+
+nav li:hover {
+    background-color: #DAF3F0;
+    border-radius: 8px;
+}
+
+#intro {
+    text-align: center;
+}
+
+.centred-text{
+    display: grid;
+    text-align: center; 
+    /* margin-left:  calc(5% + 1em); account for sidebar's width */
+}
+
+.center-items {
+    display: grid;
+    place-items: center; 
+    /* margin-left:  calc(5% + 1em); account for sidebar's width */
+    margin-bottom: 2em;
+}
+
+.call-to-action-btn {
+    /* Basic button styling */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C6D830;
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Removes default underline from links */
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 40%;
+    text-align: center;
+}
+
+#cta-subtext {
+    font-size: 0.7em;
+    color: #666;
+    opacity: 0.8;
+}
+
+.call-to-action-btn:hover {
+    background-color: #4A7210;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.contact-item-1 {
+    grid-column: 1 / span 3;
+}
+
+.contact-container > * {
+    margin: 1em;
+}
+
+.non-png-img {
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 1em 0em rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: Verdana, Arial, sans-serif;
+    /* margin-left:  calc(5% + 1em); account for sidebar's width */
+    margin: auto;
+    max-width: 70%;
+}
+
+#selling-point-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    text-align: center;
+}
+
+.selling-point-icons {
+    width: 6em;
+    height: 5em;
+    margin: auto;
+}
+
+.text {
+    margin-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10%;
+    background-color: #38BFF0;
+    text-align: center;
+}
